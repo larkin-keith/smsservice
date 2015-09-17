@@ -1,0 +1,23 @@
+{
+    "name": "mrlian/smsservice",
+    "description": "",
+    "authors": [
+        {
+            "name": "WenJunLian",
+            "email": "479245760@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Mrlian\\Smsservice\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
