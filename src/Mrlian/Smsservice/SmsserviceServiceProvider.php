@@ -28,7 +28,10 @@ class SmsserviceServiceProvider extends ServiceProvider {
 	 */
 	public function register()
 	{
-		//
+		$this->app->bind('SmsService', function()
+        {
+            return new SmsPlatform();
+        });
 	}
 
 	/**
@@ -38,7 +41,7 @@ class SmsserviceServiceProvider extends ServiceProvider {
 	 */
 	public function provides()
 	{
-		return array();
+		return array('SmsService');
 	}
 
 }

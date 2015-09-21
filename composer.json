@@ -1,6 +1,8 @@
 {
     "name": "mrlian/smsservice",
-    "description": "",
+    "description": "Captcha Package for Laravel 4",
+    "keywords": ["L4", "Laravel 4", "Laravel", "sms", "message"],
+    "homepage": "https://github.com/479245760/mrlian-smsservice",
     "authors": [
         {
             "name": "WenJunLian",
@@ -19,5 +21,5 @@
             "Mrlian\\Smsservice\\": "src/"
         }
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "dev"
 }
