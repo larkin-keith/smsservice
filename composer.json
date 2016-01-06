@@ -1,6 +1,6 @@
 {
     "name": "mrlian/smsservice",
-    "description": "Sms verification code for Laravel 4",
+    "description": "Captcha Package for Laravel 4",
     "keywords": ["L4", "Laravel 4", "Laravel", "sms", "message"],
     "homepage": "https://github.com/479245760/mrlian-smsservice",
     "authors": [
